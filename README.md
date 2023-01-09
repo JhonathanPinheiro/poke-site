@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+PokeSite
+Este é um site simples que consome a PokeAPI e exibe informações sobre pokemon.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Instalação
+Para instalar as dependências do projeto, execute o seguinte comando:
 
-## Available Scripts
+Copy code
+yarn install
+Execução
+Para iniciar o projeto em modo de desenvolvimento, execute o seguinte comando:
 
-In the project directory, you can run:
+Copy code
+yarn start
+Isso iniciará um servidor de desenvolvimento e abrirá o site em seu navegador padrão. Qualquer alteração nos arquivos do projeto será refletida automaticamente no navegador.
 
-### `npm start`
+Para criar uma versão de produção do projeto, execute o seguinte comando:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Copy code
+yarn build
+Isso criará uma versão otimizada do site na pasta build/. Você pode usar essa pasta para hospedar o site em um servidor.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Tecnologias
+Este projeto foi criado com as seguintes tecnologias:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+React - Biblioteca JavaScript para criar interfaces de usuário.
+TypeScript - Linguagem de programação com tipagem estática.
+Redux - Biblioteca para gerenciar o estado da aplicação.
+axios - Biblioteca para fazer solicitações HTTP.
